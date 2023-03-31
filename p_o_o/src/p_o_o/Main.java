@@ -67,7 +67,7 @@ public class Main {
         
         Venta venta1 = new Venta (cliente1,venta);
 //        Venta venta2 = new Venta (producto4,cliente1);
-        
+        System.out.println(venta1);
         System.out.println(venta1.cantidad());
         
         
