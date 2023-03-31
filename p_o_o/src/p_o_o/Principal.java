@@ -4,7 +4,7 @@ package p_o_o;
 import java.text.DecimalFormat;
 import java.util.*;
 
-public class Main {
+public class Principal {
 
     public static void main(String[] args) {
         Scanner input = new Scanner (System.in);
@@ -55,7 +55,7 @@ public class Main {
         
         System.out.println("El promedio de ventas de los productos es de: "+ redondear.format(promedio));
         */
-        
+        /*
         Producto2 producto1 = new Producto2("Pudin",4000);
         Producto2 producto2= new Producto2("Galletas",5000);
         Producto2 producto3 = new Producto2("Chocolate",8000);
@@ -70,6 +70,9 @@ public class Main {
         System.out.println("venta"+venta1);
         System.out.println("cantidad de ventas "+venta1.getCantidad());
         System.out.println("Promedio"+Producto2.promedio());
+        */
+        
+        
         
         
         
