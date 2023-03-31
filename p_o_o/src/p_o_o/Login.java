@@ -66,7 +66,7 @@ class Main{
         //login1.modificarDatos("carlos");
         //mostrar datos modificados
         login1.mostrarDatos();
-        
+        //esto no le presetes atencion ajjajaja
         System.out.println(" 😀\n-👙-\n ||");
         //cambiar contraseña de la clase login
         login1.setClave("hola");
