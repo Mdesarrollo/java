@@ -67,8 +67,9 @@ public class Main {
         
         Venta venta1 = new Venta (cliente1,venta);
 //        Venta venta2 = new Venta (producto4,cliente1);
-        System.out.println(venta1);
-        System.out.println(venta1.cantidad());
+        System.out.println("venta"+venta1);
+        System.out.println("cantidad de ventas "+venta1.getCantidad());
+        System.out.println("Promedio"+Producto2.promedio());
         
         
         
