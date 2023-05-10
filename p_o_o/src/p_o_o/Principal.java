@@ -66,13 +66,19 @@ public class Principal {
         Cliente cliente1 = new Cliente("juancho","1092176364");
         
         Venta venta1 = new Venta (cliente1,venta);
-//        Venta venta2 = new Venta (producto4,cliente1);
+        Venta venta2 = new Venta (producto4,cliente1);
         System.out.println("venta"+venta1);
         System.out.println("cantidad de ventas "+venta1.getCantidad());
         System.out.println("Promedio"+Producto2.promedio());
         */
         
+        Animales animal1 = new Animales(4);
         
+        Leon leon1 = new Leon ("carne", 4);
+        jirafa jirafa1 = new jirafa("pasto", 4);
+        
+        System.out.println("------los datos de la jirafa son---- \n " + jirafa1.mostrarDatos()+"\n");
+        System.out.println("------los datos del leon son ----\n "+leon1.mostrarDatos()+"\n");
         
         
         
